@@ -10,7 +10,7 @@ Stack: Backend = Node.js (Express), Frontend = Next.js + Tailwind, DB = PostgreS
 
 ## Quick Start
 1) Clone
-   git clone https://github.com/<your-org>/it-software-management.git
+   git clone https://github.com/f5song/it-software-management.git
    cd it-software-management
 
 2) (optional) ENV
