@@ -10,22 +10,22 @@ Stack: Backend = Node.js (Express), Frontend = Next.js + Tailwind, DB = PostgreS
 
 ## Quick Start
 1) Clone
-   git clone https://github.com/f5song/it-software-management.git
-   cd it-software-management
+   - git clone https://github.com/f5song/it-software-management.git
+   - cd it-software-management
 
 2) (optional) ENV
-   cp .env.example .env
-   cp backend/.env.example backend/.env
-   cp frontend/.env.example frontend/.env
+   - cp .env.example .env
+   - cp backend/.env.example backend/.env
+   - cp frontend/.env.example frontend/.env
 
 3) Build & Run
-   docker compose up --build -d
+   - docker compose up --build -d
 
 4) Access
-- Frontend: http://localhost:3000
-- Backend API: http://localhost:8000
-- DB: localhost:5432 (user/pass: postgres)
+    - Frontend: http://localhost:3000
+    - Backend API: http://localhost:8000
+    - DB: localhost:5432 (user/pass: postgres)
 
 ## Health
-- Backend: GET /  => "Hello from Backend"
-- Backend: GET /health/db => { db: "ok" }
+    - Backend: GET /  => "Hello from Backend"
+    - Backend: GET /health/db => { db: "ok" }
